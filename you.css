@@ -34,7 +34,12 @@ body, html {
     font-size: 1.2em;
     color: #666;
   }
+
+  @media screen and (max-width: 768px) {
+    /* CSS rules for smaller screens */
+  }
   
+
   @keyframes fadeIn {
     from {
       opacity: 0;
